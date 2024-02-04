@@ -21,6 +21,7 @@ export default function App() {
     <>
       <div id="inputDiv">
         <h1>You Note list</h1>
+        <h3>Add new note</h3>
         <input id="title" type="text" placeholder='title'></input>
         <input id="date" type="date" placeholder='Date' onChange={handleDateChange}></input>
         <input id="text" type="text" placeholder='text'></input>
